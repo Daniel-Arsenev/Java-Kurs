@@ -1,0 +1,47 @@
+Szenario:
+Du implementierst single player Schiffe versenken. In diesem versucht der Spieler alle versteckten Schiffe des CPU-Gegners in einer bestimmten Anzahl an Schüssen zu versenken  
+
+Spezifikation, für alle Aufgaben:
+0. Erstelle eine GUI Applikation!
+ 0.1 Sie soll ein Text Feld zur Ausgabe beinhalten
+ 0.2 Sie soll ein 10x10 Grid von Buttons beinhalten
+
+
+Spezifikation, Aufgabe 1:
+1. Die Buttons des 10x10 Grids sollen alle zusammen in einem For Loop erschaffen werden und nicht per Hand alle einzeln.
+2. Der Button soll einen EventListerner haben, der seinen Index in der Konsole ausgibt, wenn er gedrückt wird
+3. Der Index des Buttons soll eine eigene variable im Loop sein und soll dem Wert der Zählvariable des For Loopes gleichgesetzt werden.
+
+
+Spezifikation, Aufgabe 2:
+1. Es sollen folgende Schiffe zufällig auf dem Feld verteilt werden, ohne dass sie sich überschneiden:
+  > 1 Schiff  der Länge 5
+  > 2 Schiffe der Länge 4
+  > 3 Schiffe der Länge 3
+  > 4 Schiffe der Länge 2
+2. Die Buttons des 10x10 Grids sollen alle zusammen in einem For Loop erschaffen werden und nicht per Hand alle einzeln.
+3. Drücken eines Buttons repräsentiert das Schießen auf dieses Feld. Der Button soll einen EventListerner haben, die Farbe des Buttons folgendermaßen verändert:
+  > wurde ein  Schiff getroffen: Rot
+  > wurde kein Schiff getroffen: Cyan
+4. Nach einer Anzahl von Schüssen (selber auswählen) ist das Spiel zuende. Hat der Spieler vor dem Limit alle Schiffe versenkt, Ausgabe dass er gewonnen hat. Hat der Spieler nicht alle Schiffe versenken können, Ausgeben dass er verloren hat
+
+
+5. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben per GUI.
+6. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte zuerst eine vereinfachte Form es Programmes, welches nur ausgibt, welcher Button gerade gedrückt worden ist.
+2. Gestalte ein Programm im oben beschriebenen Szenario mit den angegebenen Spezifikation. Sinnvoll zusammengehörige Codeteile sollen in separate Methoden ausgelagert sein.
+
+Z1. Modifiziere die Funktion, die die Schiffe auf dem Feld platziert, sodass Schiffe sich nicht mehr berühren dürfen, wie im richtigen Schiffe versenken.
+Z2. Erweitere das Spieler sodass es ein 2 Spieler Spiel im "Pass and Play" Stil ist. Es soll der Spieler, der zuerst alle Schiffe des Gegners versenkt hat gewinnen.  
+
+
+Lernziele:
+1. Erstellen einer GUI Applikation
+ 1.1 Dynamisches Erstellen von GUI Elementen 
+2. Visuell ansprechendes GUI Design
+3. Programmieren in GUI Applikationen
+ 3.1 Arbeiten mit dynamisch erstellten GUI Elementen
+4. Programmieren mit mehr dimensionalen Arrays

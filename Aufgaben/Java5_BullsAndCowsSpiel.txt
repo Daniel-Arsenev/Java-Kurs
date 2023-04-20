@@ -1,0 +1,33 @@
+Szenario:
+Du implementierst das Spiel Bulls and Cows, auf welchem Spiele wie Mastermind und Wordle basieren. Es gibt ein geheimes Wort, welches der Spieler in einer Anzahl an Versuchen erraten muss. Dem Spieler wird gesagt, wie viele der Buchstaben im vermuteten Wort sind und an der richtigen Stelle sind (Bulls) beziehungsweise im Wort sind, aber an der falschen Stelle stehen (Cows). Geheime Wörter sind Isogramme, das heißt kein Buchstabe befindet sich mehr als einmal in dem Wort
+
+
+Spezifikation:
+1. Einlesen der words.txt Datei und Speichern der Wörter in einem Array
+2. Zufälliges Auswählen einer der Wörter aus dem Array als geheimes Wort
+3. Userinput für das vermutete geheime Wort. 
+4. Gewährleisten, dass das vermutete Wort dieselbe Anzahl an Buchstaben hat die das vermutete Wort und ein Isogramm ist
+5. Vergleichen des vermuteten geheimen Wortes mit dem Tatsächlichen.
+6. Berechnung der Anzahl der "Bulls" and "Cows"
+7. Ausgabe der Anzahl der "Bulls" and "Cows"
+8. Aufnehmen eines neuen vermuteten Wortes, bis das Wort erraten wurde oder die Maximalzahl an versuchen erreicht ist. Die Maximalzahl ist das doppelte der Länge des geheimen Wortes
+
+9. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben.
+10. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit der angegebenen Spezifikation. Sinnvoll zusammengehörige Codeteile sollen in separate Methoden ausgelagert sein.
+2. Überarbeite den Code erneut, achte besonders auch ein sinnvolles Setzen von Lehrzielen, eine logische Gliederung und einige erläuternde Kommentare
+
+
+Lernziele:
+1. Vertiefung Variablen
+2. Vertiefung Eingabe, Verarbeitung, Ausgabe
+ 2.1 Eingabe: Einlesen von Dateien mit der Scanner Klasse
+3. Vertiefung Methoden (Funktionen)
+4. Vertiefung Controllflow
+ 4.1. Iterierung Über Containern mit Schleifen
+ 4.2. Genestete Schleifen
+5. Exception Handeling
+6. Wiederholung Generieren von zufälligen Zahlen

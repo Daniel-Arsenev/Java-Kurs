@@ -1,0 +1,30 @@
+Szenario:
+Du entwickelst ein Programm, zur Analyze der am häufigsten vorkommenden Buchstaben in der deutschen Sprache
+
+
+Spezifikation:
+1. Einlesen der words.txt Datei
+2. Zählen wie oft jeder Buchstabe in jedem Wort dieser Datei vorkommt
+3. Dafür Verwenden einer Klasse, die einen Buchstaben und die Anzahl seiner Vorkommnisse speichert 
+4. Sortierung der Buchstaben nach der Zahl ihrer Vorkommnisse
+5. Dafür eigene Implementierung eines Sortieralgorithmus
+6. Ausgabe der Buchstaben in geordneter Reinfolge mit der Zahl an Vorkommnissen 
+  
+7. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben.
+8. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit der angegebenen Spezifikation. Sinnvoll zusammengehörige Codeteile sollen in separate Methoden ausgelagert sein.
+2. Überarbeite den Code erneut, achte besonders auch ein sinnvolles Setzen von Lehrzielen, eine logische Gliederung und einige erläuternde Kommentare
+
+
+Lernziele:
+1. Vertiefung Variablen
+ 1.1 Verwendung von Datenstrukturen
+2. Vertiefung Eingabe, Verarbeitung, Ausgabe
+ 2.1 Eingabe: Einlesen von Dateien mit der Scanner Klasse
+3. Vertiefung Methoden (Funktionen)
+4. Vertiefung Controllflow
+ 4.1. Iterierung Über Containern mit Schleifen
+ 4.2. Lineare Suche

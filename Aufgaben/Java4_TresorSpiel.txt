@@ -1,0 +1,30 @@
+Szenario:
+Du erstellst ein Spiel. In dem Spiel gibt es einen Tresor, welcher durch einen 3 Zahlen langen Code gesichert ist. Der Spieler hat ein Hilfsgerät, welches ihm die Summe und das Produkt der Zahlen mitteilt. Damit soll der die Zahlen ermitteln.
+
+Spezifikation:
+1. Generieren 3 zufälliger Zahlen für den Tresor-Code
+2. Ausgabe der Summe und des Produktes der Zahlen
+3. Userinput für die vermuteten Zahlen des Tresor-Codes
+4. Vergleichen des vermuteten Tresor-Codes mit dem tatsächlichen. Die Reihenfolge, in dem die Zahlen gegeben wurden, soll nicht relevant sein, nur die Zahlenwerte an sich.
+5. Ausgabe, ob der Tresor geknackt wurde oder nicht
+6. Anfangen einer neuen Runde mit neuem Tresor-Code, unabhängig davon, ob der Tresor geknackt wurde oder nicht.
+7. Enden des Spieles nach 5 geknackten Tresoren
+8. Erhöhung des Schwierigkeitsgrades nach jedem geknackten Tresor.
+
+9. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben.
+10. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit den angegebenen Spezifikation. Sinnvoll zusammengehörige Codeteile sollen in separate Methoden ausgelagert sein.
+2. Überarbeite den Code erneut, achte besonders auch ein sinnvolles Setzen von Lehrzielen, eine logische Gliederung und einige erläuternde Kommentare
+
+
+Lernziele:
+1. Vertiefung Variablen
+2. Vertiefung Eingabe, Verarbeitung, Ausgabe
+3. Vertiefung Methoden (Funktionen)
+4. Controllflow
+ 4.1. Konditionelle Abfragen (if / else)
+ 4.2. Schleifen (while)
+5. Generieren von zufälligen Zahlen

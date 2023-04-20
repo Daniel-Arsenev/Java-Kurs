@@ -1,0 +1,37 @@
+Szenario:
+Um dir die LA Übungen einfacher zu machen, entscheidest dich dir einen einfachen Taschenrechner für Komplexe Zahlen zu programmieren
+
+Spezifikation:
+1. Userinput für die Operation, die durchgeführt werden soll, aufnehmen. Folgende, sollen die möglichen Operationen sein:
+  > Addition (2 Inputs)
+  > Subtraktion (2 Inputs)
+  > Multiplikation (2 Inputs)
+  > Konjugation (nur 1 Input)
+  > Betrag (nur 1 Input)
+  > Division(2 Inputs)
+2. Userinput für die Komplexe Zahl(en) in algebraischer Form aufnehmen
+3. Speichern aufgenommener Komplexer Zahl(en) in einem Komplexe Zahl Datentyp
+4. Verrechnen der Komplexen Zahl(en) anhand der ausgewählten Operation
+5. Ausgabe des Ergebnisses in algebraischer Form.
+
+6. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben.
+7. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit den angegebenen Spezifikation.
+2. Lagere sinnvoll zusammengehörende Codeteile in separate Methoden aus, speziell lagere die Operationen der Komplexen Zahlen in (statische) Methoden der Komplexe Zahl Klasse aus
+3. Überarbeite den Code erneut, achte besonders auf ein sinnvolles setzen von Leerzeilen, eine logische Gliederung und einige erläuternde Kommentare.
+
+Lernziele:
+1. Variablen und Arrays:
+ 1.1. Erstellen von eigenen Klassen / Datentypen
+ 1.2. Deklaration und Initialisierung von Variablen eigenen Typen
+2. Wiederholung Eingabe, Verarbeitung, Ausgabe (E.V.A. Prinzip)
+ 2.1. Eingabe: Die Scanner Klasse,
+ 2.2. Verarbeitung: Arbeiten mit eigenen Typen
+ 2.3. Ausgabe: System.out.println
+3. Methoden (Funktionen)
+ 3.1 Das Erstellen und Aufrufen von Klassenmethoden
+ 3.2 Funktionsparameter und Rückgabewerte.
+ 3.3 Erstellen von Rechnenoperationen für eigene Datentypen
+ 3.4 Strukturierung von Code; Methoden die eine Klasse betreffen, zu dieser Klasse gehörig machen

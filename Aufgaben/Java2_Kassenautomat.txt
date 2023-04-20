@@ -1,0 +1,40 @@
+Szenario:
+Ein Freizeitpark möchte ein Programm für einen einfachen Kassenautomaten zur Berechnung der Preise.
+
+Spezifikation:
+1. Userinput für die Zahl der Erwachsenen, Kinder und Dauer des Aufenthalts aufnehmen
+2. Berechnung der Gesamtkosten der Gruppe in Abhängigkeit vom Userinput mit folgenden Preisen:
+  Unter 3 Stunden:
+   > Pro Kind 4,50 € pro Stunde
+   > Pro Erwachsenen 7,00 € pro Stunde
+  Über 3 Stunden:
+   > Pro Kind 3,50 € pro Stunde
+   > Pro Erwachsenen 5,00 € pro Stunde
+3. Ausgabe der berechneten Gesamtkosten.
+
+4. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben.
+5. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit den angegebenen Spezifikation. Schreibe allen Code in die „main“-Funktion deines Programms.
+2. Lagere sinnvoll zusammengehörende Codeteile in separate Methoden aus. Nutze Funktionsparameter und Rückgabewerte zur Übergabe von Werten zwischen Funktionen.
+3. Überarbeite den Code erneut, achte besonders auf ein sinnvolles setzen von Leerzeilen, eine logische Gliederung und einige erläuternde Kommentare.
+4. Erstelle eine sinnvolle und in das Szenario passende Erweiterung für den Kassenautomaten. Sei Kreativ!
+
+Lernziele:
+1. Variablen und Arrays:
+ 1.1. Deklaration und Initialisierung
+ 1.2. Variablentypen: int, boolean, double, char, string
+2. Eingabe, Verarbeitung, Ausgabe (E.V.A. Prinzip):
+ 2.1. Eingabe: Die Scanner Klasse,
+ 2.2. Verarbeitung: Rechenoperationen,
+ 2.3. Ausgabe: System.out.println
+3. Methoden (Funktionen)
+ 3.1 Das Erstellen und Aufrufen von Klassenmethoden
+ 3.2 Funktionsparameter und Rückgabewerte.
+ 3.3 Strukturierung von Code; Ausgliederung von Codeteilen in Klassenmethoden.
+4. Controllflow
+ 4.1 Konditionelle Abfragen (if / else).
+
+

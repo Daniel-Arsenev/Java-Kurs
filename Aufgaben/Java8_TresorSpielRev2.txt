@@ -1,0 +1,32 @@
+Szenario:
+Du erstellst ein Spiel. In dem Spiel gibt es einen Tresor, welcher durch einen 3 Zahlen langen Code gesichert ist. Der Spieler hat ein Hilfsgerät, welches ihm die Summe und das Produkt der Zahlen mitteilt. Damit soll der die Zahlen ermitteln.
+
+Spezifikation:
+0. Erstelle eine GUI Applikation!
+ 0.1 Sie soll 1 TextArea zur Ausgabe beinhalten
+ 0.2 Sie soll 3 TextFelder zur Eingabe beihalten
+ 0.3 Sie soll 1 Button "next" zur Eingabe beinhalten
+
+1. Generieren 3 zufälliger Zahlen für den Tresor-Code
+2. Ausgabe der Summe und des Produktes der Zahlen durch die TextArea
+3. Userinput für die vermuteten Zahlen des Tresor-Codes durch die 3 TextFelder 
+4. Wenn der "next" Button gedrückt wird: Vergleichen des vermuteten Tresor-Codes mit dem tatsächlichen. Die Reihenfolge, in dem die Zahlen gegeben wurden, soll nicht relevant sein
+5. Ausgabe, ob der Tresor geknackt wurde oder nicht durch eine Text Box
+6. Wenn der "next" Button gedrückt wird: Anfangen einer neuen Runde mit neuem Tresor-Code, unabhängig davon, ob der Tresor geknackt wurde oder nicht.
+7. Enden des Spieles nach 5 geknackten Tresoren
+8. Erhöhung des Schwierigkeitsgrades nach jedem geknackten Tresor.
+
+9. Für den Nutzer ansprechende und übersichtliche Ein- und Ausgaben per GUI.
+10. Sinnvolle und gute Kommentierung und Gliederung des Codes.
+
+
+Aufgaben:
+1. Gestalte ein Programm im oben beschriebenen Szenario mit den angegebenen Spezifikation. Sinnvoll zusammengehörige Codeteile sollen in separate Methoden ausgelagert sein.
+2. Überarbeite den Code erneut, achte besonders auch ein sinnvolles Setzen von Lehrzielen, eine logische Gliederung und einige erläuternde Kommentare
+
+
+Lernziele:
+1. Erstellen einer GUI Applikation
+2. Visuell ansprechendes GUI Design
+3. Programmieren in GUI Apllikationen
+4. Programmieren mit Zuständen
